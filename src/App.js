@@ -1,15 +1,13 @@
 import { useState } from 'react';
 import './App.css';
-import Display from './components/Display';
-import Button from './components/Button';
+import Counter from './components/Counter';
 
 function App() {
-  const [display, setDisplay] = useState(0);  
+  const [counter, setCounter] = useState(0);
   return (
     <div className="App">
-      <Display counter={display} />
-      <Button title="+" counter={display} setDisplay={setDisplay} />
-      <Button title="-" counter={display} setDisplay={setDisplay} />
+      <Counter display={counter} setDisplay={setCounter} />
+      <Counter display={counter} setDisplay={setCounter} />
     </div>
   );
 }
