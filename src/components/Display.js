@@ -1,6 +1,6 @@
 function Display({counter}) {
     return ( 
-        <div className="Display">{counter}</div> 
+        <div id="Display">{counter}</div> 
     );
 }
 
