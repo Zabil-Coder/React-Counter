@@ -10,10 +10,15 @@ function Button({title, counter, setDisplay}) {
         }
         setDisplay(value);
     }
-
+    let color = "green";
+    let icon = "fa-plus";
+    if(title === '-'){
+        color = "red";
+        icon = "fa-minus";
+    }
     return ( 
-        <button className='Button' onClick={displayChanger} value={title}>
-            {title}
+        <button className={`Button ${color}`} onClick={displayChanger} value={title}>
+            <i className={`fas ${icon}`}></i>
         </button> 
         );
 }

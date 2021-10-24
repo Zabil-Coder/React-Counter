@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <Counter display={counter} setDisplay={setCounter} />
-      <Counter display={counter} setDisplay={setCounter} />
     </div>
   );
 }

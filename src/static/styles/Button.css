@@ -1,0 +1,15 @@
+.Button {
+    border-radius: 50%;
+    border: none;
+    padding: 16px;
+    color: #fff;
+    font-size: 19px;
+}
+
+.green {
+    background-color: #39bb35;
+}
+
+.red {
+    background-color: #cc1515;
+}

@@ -1,6 +1,8 @@
+import '../static/styles/Display.css'
+
 function Display({counter}) {
     return ( 
-        <div id="Display">{counter}</div> 
+        <div className="Display">{counter}</div> 
     );
 }
 
