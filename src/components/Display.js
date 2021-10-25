@@ -1,4 +1,4 @@
-import '../static/styles/Display.css'
+import '../static/styles/Counter.css'
 
 function Display({counter}) {
     return ( 

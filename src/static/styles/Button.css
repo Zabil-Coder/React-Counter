@@ -12,12 +12,12 @@
 }
 
 .green {
-    border: 1px solid var(--button-green);
+    border: 2px solid var(--button-green);
     color: var(--button-green);
 }
 
 .red {
-    border: 1px solid var(--button-red);
+    border: 2px solid var(--button-red);
     color: var(--button-red);
 }
 
