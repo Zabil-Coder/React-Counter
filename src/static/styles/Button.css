@@ -1,15 +1,29 @@
 .Button {
     border-radius: 50%;
-    border: none;
     padding: 16px;
-    color: #fff;
     font-size: 19px;
+    background-color: #fff;
+}
+
+.Button:hover{
+    color: #fff;
+    cursor: pointer;
 }
 
 .green {
-    background-color: #39bb35;
+    border: 1px solid var(--button-green);
+    color: var(--button-green);
 }
 
 .red {
-    background-color: #cc1515;
+    border: 1px solid var(--button-red);
+    color: var(--button-red);
+}
+
+.green:hover{
+    background-color: var(--button-green);
+}
+
+.red:hover{
+    background-color: var(--button-red);
 }
