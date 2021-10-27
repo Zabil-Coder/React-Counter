@@ -1,14 +1,14 @@
 import Button from "./Button";
-import Display from "./Display";
+import '../static/styles/Counter.css'
 
-function Counter({display, setDisplay}) {
+function Counter({counter, updateCounter}) {
     return (
         <div className="Counter">
-            <h1 className="Title">Test</h1>
+            <h4 className="Title">{counter.name}</h4>
             <div>
-            <Button value="-" counter={display} setDisplay={setDisplay} />
-            <Display counter={display} />
-            <Button value="+" counter={display} setDisplay={setDisplay} />  
+            <Button id={counter.id} value="-" updateCounter={updateCounter}/>
+            <span className="Display">{counter.value}</span>
+            <Button id={counter.id} value="+" updateCounter={updateCounter}/>  
             </div>
         </div>
     );

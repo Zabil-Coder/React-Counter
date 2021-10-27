@@ -1,8 +1,9 @@
 .Counter{
-    border:1px solid #000;
     width: 360px;
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+    align-items: center;
 }
 
 .Display {
@@ -11,8 +12,4 @@
     text-align: center;
     font-size: 1.4rem;
     padding: 10px;
-}
-
-.Title {
-    display: inline-block;
 }
